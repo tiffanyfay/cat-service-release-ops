@@ -9,7 +9,7 @@ configMapGenerator:
   - name: cat-service-config
     files:
       - application.properties
-  - name: catty-config
+  - name: doggy-config
     literals:
       - KITTY=cat
 images:
