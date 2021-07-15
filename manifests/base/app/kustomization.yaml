@@ -14,6 +14,6 @@ configMapGenerator:
       - KITTY=cat
 images:
   - name: gcr.io/pgtm-jlong/cat-service # used for Kustomize matching
-    newTag: latest
+    newTag: b1.20210715.200835
     newName: eduk8s-labs-w01-s112-registry.s1tour-july-prod-86481b7.tanzu-labs.esp.vmware.com/cat-service
   
